@@ -1,0 +1,24 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@font-face { font-family: 'Arita-buri-SemiBold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-buri-SemiBold.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+.bodyTextDiv{
+    // margin-left: 20%;
+    text-align :center;
+    width: 100%;
+    heigth: 400px;
+    margin:0;
+ 
+
+    .bodyText{
+        margin: 32px;
+        font-size: 36px;
+        font-weight : 700;
+        font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+       
+    }
+    .bodySubText{
+        margin: 15px;
+       color: #4E4E4E;
+       font-family: 'Arita-buri-SemiBold';
+    }
+}

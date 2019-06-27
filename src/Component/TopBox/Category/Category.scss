@@ -1,0 +1,30 @@
+.categoryDiv:hover .category .colorBar{
+    width: 100%;
+    }
+
+.categoryDiv{
+    position: relative;
+    display: inline-block;
+    
+
+    .category {
+        position: relative;
+        width: 100%;
+        font-family: 'Lora', serif;
+        font-size: 25px;
+        margin: 0 0 0 15px;
+        z-index: 100;
+
+        .colorBar{
+            position: absolute;
+            height: 3px;
+            width: 0%;
+            bottom: 100%;
+            margin: 0 0 0 15px;
+            background-color: black;
+            transition: width 0.3s ease;
+        }
+    }   
+}
+
+
